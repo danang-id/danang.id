@@ -1,0 +1,125 @@
+.home-page {
+	.branding {
+		@apply flex bg-no-repeat bg-right-bottom bg-contain bg-light-accent dark:bg-dark-accent;
+
+		.content {
+			@apply flex flex-col justify-center content-center gap-4
+				min-h-[28rem] w-full md:w-[70vw] px-8 lg:px-16 py-2;
+
+			.full-name {
+				@apply font-brand text-3xl uppercase tracking-wide leading-[2.75rem];
+
+				.first-name {
+					@apply bg-brand dark:bg-light-accent text-light-accent dark:text-brand
+					px-2 py-1 rounded-md font-bold;
+				}
+
+				.last-name {
+					@apply py-1 font-medium;
+				}
+			}
+
+			.short-description {
+				@apply mt-8 text-lg;
+			}
+
+			.social-media {
+				@apply flex gap-4 mt-2 px-2;
+			}
+		}
+	}
+
+	.vision {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #333;
+		font-size: 3rem;
+		font-weight: 100;
+		line-height: 1.5;
+		text-transform: uppercase;
+		white-space: nowrap;
+		overflow: hidden;
+		position: relative;
+		width: 550px;
+
+		span {
+			font-size: 40px;
+			margin-left: 40px;
+		}
+
+		.vision-text {
+			background-color: yellow;
+			color: #333;
+			display: block;
+			font-weight: 900;
+			padding-left: 0.5rem;
+			animation: vision-text-open-close  5s ease-in-out infinite;
+		}
+	}
+}
+
+@keyframes vision-text-open-close {
+	0% {
+		top: 0.2rem;
+		width: 0;
+	}
+	5% {
+		width: 0;
+	}
+	15% {
+		width: 230px;
+	}
+	30% {
+		top: 0.2rem;
+		width: 230px;
+	}
+	33% {
+		top: 0.2rem;
+		width: 0;
+	}
+	35% {
+		top: 0.2rem;
+		width: 0;
+	}
+	38% {
+		top: -4.5rem;
+
+	}
+	48% {
+		top: -4.5rem;
+		width: 190px;
+	}
+	62% {
+		top: -4.5rem;
+		width: 190px;
+	}
+	66% {
+		top: -4.5rem;
+		width: 0;
+		text-indent: 0;
+	}
+	71% {
+		top: -9rem;
+		width: 0;
+		text-indent: 5px;
+	}
+	86% {
+		top: -9rem;
+		width: 285px;
+	}
+	95% {
+		top: -9rem;
+		width: 285px;
+	}
+	98% {
+		top: -9rem;
+		width: 0;
+		text-indent: 5px;
+	}
+	100% {
+		top: 0;
+		width: 0;
+		text-indent: 0;
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"button": {
+		"back": "Back",
+		"homePage": "Home Page"
+	},
+	"fallback": {
+		"documentTitle": "Error Occurred",
+		"title": "Something went wrong",
+		"message": "We are sorry about that. You may try again later."
+	},
+	"notFound": {
+		"documentTitle": "Page Not Found",
+		"title": "Oops!",
+		"message": "The page you are looking for is not found."
+	},
+	"offline": {
+		"documentTitle": "Network Offline",
+		"title": "Oops!",
+		"message": "You are seems to be offline. Please make sure you are connected to the Internet to access this application."
+	}
+}

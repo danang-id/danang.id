@@ -1,0 +1,19 @@
+.footer {
+	@apply flex flex-col justify-start content-center min-w-full p-4;
+
+	.language-selector {
+		@apply block sm:hidden;
+	}
+
+	.copyright-and-application-information {
+		@apply text-xs pt-4 sm:pt-0;
+
+		.copyright {
+			@apply font-semibold;
+		}
+
+		.view-source-link {
+			@apply ui-link ui-link-primary;
+		}
+	}
+}

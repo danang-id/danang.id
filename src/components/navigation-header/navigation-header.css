@@ -1,0 +1,22 @@
+.navigation-header {
+	@apply flex justify-start items-center gap-4 h-20 w-full px-6;
+
+	.branding {
+		@apply hidden sm:block text-xl font-brand;
+
+		.first-name {
+			@apply font-bold;
+		}
+
+		.last-name {
+		}
+	}
+
+	.color-scheme-switcher {
+		@apply ml-auto;
+	}
+
+	.language-selector {
+		@apply hidden sm:block;
+	}
+}

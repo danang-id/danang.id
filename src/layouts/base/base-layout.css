@@ -1,0 +1,17 @@
+.layout {
+	@apply flex flex-col min-h-screen min-w-full;
+
+	.navigation-header {
+	}
+
+	.layout-container {
+		@apply min-h-full grow;
+	}
+
+	.footer {
+	}
+}
+
+.layout-theme {
+	@apply bg-light dark:bg-dark text-dark dark:text-light;
+}

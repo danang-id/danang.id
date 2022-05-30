@@ -1,0 +1,7 @@
+.developer-menu {
+	.application-status {
+		@apply fixed z-10 bottom-4 left-4 px-2 py-1
+		rounded bg-opacity-90 font-medium text-sm cursor-pointer
+		bg-white dark:bg-black text-black dark:text-white;
+	}
+}

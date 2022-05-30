@@ -1,0 +1,13 @@
+{
+	"name": {
+		"first": "Danang",
+		"last": "Galuh Tegar Prasetyo"
+	},
+	"jobDescription": {
+		"short": "Pengembang perangkat lunak full-stack.",
+		"long": "Pengembang perangkat lunak full-stack dengan lebih dari 5 tahun pengalaman dalam mengembangkan proyek siap produksi. Sangat antusias dalam .NET dan TypeScript, dan sangat bersemangat tentang inovasi teknologi terbaru. Membangun aplikasi seluler dan web modern dengan React Native, ASP.NET, dll., dengan menggunakan teknik dan tren terbaru. Pembelajar cepat dengan prinsip kuat tentang keamanan, privasi, dan kebersihan basis kode."
+	},
+	"loading": {
+		"message": "Bersiap-siap"
+	}
+}

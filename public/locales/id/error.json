@@ -1,0 +1,21 @@
+{
+	"button": {
+		"back": "Kembali",
+		"homePage": "Laman Beranda"
+	},
+	"fallback": {
+		"documentTitle": "Terjadi Kesalahan",
+		"title": "Ada sesuatu yang salah",
+		"message": "Kami mohon maaf tentang hal ini. Anda dapat mencoba lagi nanti."
+	},
+	"notFound": {
+		"documentTitle": "Laman Tidak Ditemukan",
+		"title": "Ups!",
+		"message": "Laman yang Anda cari tidak ditemukan."
+	},
+	"offline": {
+		"documentTitle": "Luring",
+		"title": "Ups!",
+		"message": "Anda tampaknya sedang luring. Pastikan Anda terhubung ke Internet untuk mengakses aplikasi ini."
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"name": {
+		"first": "Danang",
+		"last": "Galuh Tegar Prasetyo"
+	},
+	"jobDescription": {
+		"short": "Full-stack software developer.",
+		"long": "Full-stack software developer with more than 5 years experiences in developing production ready projects. Highly enthusiastic in .NET and TypeScript, and very passionate about recent technology innovation. Build modern mobile and web applications with React Native, ASP.NET, etc., using the latest techniques and trends in mind. Fast learner with strong principle about security, privacy and cleanliness of a codebase."
+	},
+	"loading": {
+		"message": "Gearing up"
+	},
+}

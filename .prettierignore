@@ -1,0 +1,12 @@
+node_modules
+node_modules/*
+.yarn
+.yarn/*
+.DS_Store
+coverage
+dist
+dist-ssr
+*.local
+
+src/features/unidata/grpc-client
+src/features/unidata/protobuf

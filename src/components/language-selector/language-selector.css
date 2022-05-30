@@ -1,0 +1,3 @@
+.language-selector {
+	@apply ui-select ui-select-bordered ui-select-sm;
+}

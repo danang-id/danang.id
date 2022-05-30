@@ -1,0 +1,3 @@
+.color-scheme-switcher {
+	@apply ui-swap ui-swap-rotate text-sm;
+}
